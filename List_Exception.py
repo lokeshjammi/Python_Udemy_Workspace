@@ -20,6 +20,9 @@ print(toysList)
 toysList.sort()
 print(toysList)
 
+new_toy_list = ['Bag', 'Skatescooter']
+print(toysList + new_toy_list)
+
 #Slice
 some_toys = toysList[1:3]
 print('Some toys are: {}' .format(some_toys))
