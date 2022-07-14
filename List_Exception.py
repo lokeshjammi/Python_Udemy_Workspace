@@ -43,3 +43,15 @@ try:
 except:
     school_index = 'No School is found'
 print(school_index)
+
+#Practice Exercise
+list_of_actions = []
+finished = False
+while not finished:
+    user_data = input("Enter a task for your to-do list: ")
+    if len(user_data) == 0:
+        finished = True
+    else:
+        list_of_actions.append(user_data)
+        print("Task Added")
+print(list_of_actions)
